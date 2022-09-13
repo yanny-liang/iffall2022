@@ -1,0 +1,26 @@
+body {
+    background-color: #f4e1d0;
+}
+h1{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p{
+    width: 65%;
+    margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    padding: 10px;
+
+    text-align: center;
+    line-height: 25px;
+
+    font-family: 'Courier New', Courier, monospace;
+
+    border-style: solid;
+    border-width: thin;
+    border-radius: 25px;
+
+    background-color: #cbc9a8;
+}
