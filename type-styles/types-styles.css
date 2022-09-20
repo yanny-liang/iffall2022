@@ -1,0 +1,57 @@
+* {
+    background-color: #EDD2E0;
+}
+
+header {
+    margin-left: 50px;
+}
+
+main{
+    margin: 50px; 
+}
+
+h1 {
+    color: #DD6E42;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 80px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    color: #3069C5; 
+    font-size: 26px;
+}
+
+h3 {
+    margin: 0px; 
+    font-size: 20px;
+}
+
+h6 {
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+p {
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0px;
+}
+
+#weight-light {font-weight: lighter;}
+#weight-normal {font-weight: normal;}
+#weight-medium{font-weight: 500}
+#weight-bold {font-weight: bold;}
+
+#style-italic {font-style: italic;}
+
+#spacing-wide {letter-spacing: 0.3em}
+#spacing-narrow {letter-spacing: -.06em}
+
+#decoration-underline {text-decoration: underline;}
+#decoration-linethrough {text-decoration: line-through;}
+#decoration-overline {text-decoration: overline}
+
+#transform-uppercase {text-transform: uppercase;}
+#transform-lowercase {text-transform: lowercase;}
+#transform-capitalize {text-transform: capitalize;}
