@@ -1,0 +1,137 @@
+main {
+    max-width: 1024px;  
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    background-color: #E6CCB3;
+    font-size: 45px; 
+    padding-left: 5px; 
+    text-align: center;
+    margin: 20px 0px; 
+    font-family: superclarendon,serif;
+    font-weight: 400;
+}
+
+#prep-info {
+    border: solid;
+    border-color: black;
+    max-width: 50%;
+    padding: 10px; 
+    margin: 10px auto; 
+}
+
+h2 {
+    text-align: center; 
+    background-color: #AFA36F;
+    width: 100%; 
+    font-style: italic;
+}
+
+h4 {
+    font-family: superclarendon,serif;
+    font-weight: 400;
+    font-style: italic;
+    text-align: left;
+}
+
+li{
+    line-height: 1.45rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto; 
+}
+
+#header-dumplings{
+    margin-bottom: 10px;
+}
+
+/* ingredients section - desktop */
+#ingredients-box, .instructions, .tools-info, .nutrition {
+    padding: 0% 5%;  
+    font-size: 0.85em; 
+}
+
+#ingredients-box div {
+    display: grid; 
+    grid-template-columns: 0.33fr 0.66fr; 
+    margin-left: 10%; 
+    margin-bottom: 2%;
+}
+
+.ingredients ul {
+    max-width: 100%; 
+    padding-left: 10%; 
+    list-style: none;
+}
+
+/* tools section - desktop */
+    #tools ul {
+        text-align: center;
+        list-style: none;
+    }
+
+/* Instructions section - desktop */
+ol {
+    padding-left: 20px; 
+}
+
+/* instructions images float */
+.image-float-right {
+    float: right; 
+    max-width: 25%; 
+    height: auto; 
+    margin-left: 5%; 
+    margin-top: -40px;
+}
+
+.image-float-left {
+    float: left; 
+    max-width: 25%; 
+    height: auto; 
+    margin-right: 5%; 
+}
+
+#aspic::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#dough{
+    margin-right: 35px; 
+}
+
+#dough::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.nutrition::before {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* start of phone styles */
+ @media (max-width: 420px) {
+    .image-float-right, .image-float-left {
+        display: block; 
+        max-width: 100%;
+        height: auto;
+        margin-top: 0px; 
+        margin-bottom: 10px;
+    }
+
+    }
+
+footer {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
