@@ -1,0 +1,394 @@
+body {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 40px;
+}
+
+h1 {
+     font-size: 30px;
+     margin-bottom: 40px;
+}
+
+.button_container {
+    border: 1px solid #ddd;
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Spotify Button */
+a#btn_spotify {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    background-color: #2ebd59;
+    border: 2px solid #2ebd59;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_spotify:hover {
+    background-color: #fff;
+    border: 2px solid #000;
+    color: #000;
+}
+
+/* Amazon Button */
+a#btn_amazon {
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+    background-color: #232f3e;
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    transition: all .2s;
+}
+
+a#btn_amazon:hover {
+    background-color: #fc9a18;
+}
+
+/* Twitter Button */
+a#btn_twitter {
+    display: inline-block;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 105px;
+    padding: 10px 30px 0 30px;
+    background-color: #56cdf1;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a#btn_twitter:hover {
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+    background: rgb(46,191,236); /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  rgba(46,191,236,1) 0%, rgba(40,165,203,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+/* IndieGogo Button */
+a#btn_indiegogo {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: #fff;
+    color: #eb1478;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: -2px;
+    transition: all .2s;
+}
+
+a#btn_indiegogo:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #eb1478;
+    transition: all .5s;
+}
+
+a#btn_indiegogo:hover {
+    color: #fff;
+}
+
+a#btn_indiegogo:hover:before {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+a#btn_indiegogo span {
+    position: relative;
+    z-index: 10;
+}
+
+/* Coca-Cola Button */
+a#btn_coca-cola{
+    display: inline-block;
+    padding: 10px; 
+    margin: auto;
+    margin-top: 100px;
+    background-color: #f40000;
+    color: white;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    border: #f40000;
+    border-radius: 2px;
+}
+
+a#btn_coca-cola:hover{
+    background-color: white;
+    color: #f40000;
+    border-radius: 10px;
+    border: black;
+    border-style: solid;
+}
+
+/* Apple Button */
+a#btn_appple:link{
+    display: inline-block;
+    font-family: Helvetica, sans-serif;
+    padding: 10px; 
+    margin: auto;
+    margin-top: 100px;
+    background-color: #ddd;
+    color: black;  
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+a#btn_appple:hover{
+    background-color: white;
+    color:  #06c;
+}
+
+/* IBM Button */
+a#btn_ibm{
+    display: inline-block;
+    font-family: Helvetica, sans-serif;
+    padding: 10px; 
+    margin: auto;
+    margin-top: 100px;
+    background-color: #0f62fe;
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+a#btn_ibm:hover{
+    background-color: lightgrey;
+    color: rgb(11, 63, 116);
+    background: -moz-linear-gradient(-45deg, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+/* Nerf Button */
+a#btn_nerf{
+    display: inline-block;
+    padding: 15px; 
+    margin: auto;
+    margin-top: 100px;
+    background-color: rgb(255, 119, 0);
+    color: white;
+    border: rgb(255, 119, 0);
+    border-style: solid;
+    border-radius: 25px;
+    font-family: proxima-nova,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+a#btn_nerf:hover{
+    color: black;
+    background-color: rgb(255, 119, 0);
+    background: rgb(228,245,252); /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgba(228,245,252,1) 0%, rgba(191,232,249,1) 50%, rgba(159,216,239,1) 51%, rgba(42,176,237,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(228,245,252,1) 0%,rgba(191,232,249,1) 50%,rgba(159,216,239,1) 51%,rgba(42,176,237,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(228,245,252,1) 0%,rgba(191,232,249,1) 50%,rgba(159,216,239,1) 51%,rgba(42,176,237,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4f5fc', endColorstr='#2ab0ed',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+/* Harley Davidson button */
+a#btn_harley-davidson{
+    display: block;
+    padding: 15px; 
+    margin: auto;
+    margin-top: 100px; 
+    background-color: red;
+    color: black;
+    border: solid black 5px; 
+    font-family: "Tertiary-Font","NotoSans-Regular",sans-serif;
+    font-weight: 700;
+}
+
+a#btn_harley-davidson:hover {
+    background: rgb(254,204,177); /* Old browsers */
+    background: -moz-linear-gradient(45deg, rgba(254,204,177,1) 0%, rgba(241,116,50,1) 50%, rgba(234,85,7,1) 75%, rgba(251,149,94,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, rgba(254,204,177,1) 0%,rgba(241,116,50,1) 50%,rgba(234,85,7,1) 75%,rgba(251,149,94,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, rgba(254,204,177,1) 0%,rgba(241,116,50,1) 50%,rgba(234,85,7,1) 75%,rgba(251,149,94,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feccb1', endColorstr='#fb955e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */    
+}
+
+/* Lyft button */
+a#btn_lyft:link{
+    display: inline-block;
+    padding: 15px; 
+    width: 100px; 
+    margin: auto;
+    margin-top: 100px;
+    background-color: rgb(255, 0, 191);
+    border: 2px solid rgb(60, 41, 78);
+    border-radius: 25px;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+a#btn_lyft:hover{
+    color: white;
+}
+
+/* Instagram button */
+a#btn_instagram {
+    display: inline-block;
+    padding: 15px; 
+    margin: auto;
+    margin-top: 100px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-decoration: none;
+    background: rgb(254,204,177); /* Old browsers */
+    background: -moz-linear-gradient(45deg, rgba(254,204,177,1) 0%, rgba(194,44,211,1) 34%, rgba(255,201,94,1) 78%, rgba(251,149,94,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, rgba(254,204,177,1) 0%,rgba(194,44,211,1) 34%,rgba(255,201,94,1) 78%,rgba(251,149,94,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, rgba(254,204,177,1) 0%,rgba(194,44,211,1) 34%,rgba(255,201,94,1) 78%,rgba(251,149,94,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feccb1', endColorstr='#fb955e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+/* Exploding Kittens button */
+a#btn_exploding-kittens{
+    display: inline-block;
+    padding: 15px; 
+    margin: auto;
+    margin-top: 100px;
+    color: black;
+    text-decoration: none;
+    background-color: rgb(193,39,45);
+    border: solid 3px rgba(193,39,45); 
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+}
+
+a#btn_exploding-kittens:hover{
+    color: white; 
+}
+
+/* Cartoon Network button */
+a#btn_cartoon-network{
+    display: inline-block;
+    padding: 15px; 
+    margin: auto;
+    margin-top: 100px;
+    color: #ED008C;
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+    background-color: black;
+    text-decoration: none;
+}
+
+a#btn_cartoon-network:hover{
+    color: #00AEEF;
+    background-color: #ffd93f; 
+    border: 2px solid #ED008C;
+}
+
+/* Craigslist */
+a#btn_craigslist{
+    display: inline-block;
+    padding: 15px; 
+    margin: auto;
+    margin-top: 100px;
+    text-decoration: none;
+    background-color: purple;
+    color: white;
+}
+
+a#btn_craigslist:hover{
+    background-color: white;
+    color: black;
+    text-decoration: underline;
+    border: solid 2px purple;
+}
+
+/* Nike button */
+a#btn_nike{
+    display: inline-block;
+    padding: 15px; 
+    margin: auto;
+    margin-top: 100px;
+    text-decoration: none;
+    background-color: black;
+    color: orange;
+    border: solid 2px black;
+    border-radius: 25px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+a#btn_nike:hover{
+    background-color: white;
+    color: black;
+    background: rgb(255,255,255); /* Old browsers */
+    background: -moz-linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(229,229,229,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+/* Pottermore button */
+a#btn_pottermore{
+    display: inline-block;
+    padding: 15px; 
+    margin: auto;
+    margin-top: 100px;
+    text-decoration: none;
+    font-family: 'Bitter', serif;
+    background-color: #514a92;
+    color: white;
+    border: solid #514a92 2px;
+    border-radius: 20px;
+}
+
+a#btn_pottermore:hover{
+    background-color: rgb(255, 203, 83);
+    color: black;
+}
