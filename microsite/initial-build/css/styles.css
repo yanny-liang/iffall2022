@@ -1,0 +1,59 @@
+header, footer{
+    background-color: #FFFCDC;
+    margin: 0; 
+    padding: 0; 
+}
+
+nav#main-nav ul, nav#footer-nav ul {
+    display: flex;
+    list-style: none;
+    margin:0;
+    padding: 0; 
+}
+
+nav#main-nav ul li a {
+    text-decoration: none;
+    display: inline-block; 
+    padding: 0.3em 2em; 
+    margin: 0 10px; 
+    font-size: 24px;
+
+}
+
+
+body {
+    background-image: url("https://cdn.wallpapersafari.com/81/64/tHwYWI.jpg");
+    background-size: cover; 
+    background-attachment: fixed;
+     
+}
+
+main{
+    max-width: 75%;
+    margin: auto;
+    padding: 0 2em; 
+    /* background-color: #FFFCDC; */
+}
+
+nav#footer-nav ul li a{
+    text-decoration: none;
+    display: inline-block; 
+    padding: 0.3em 2em; 
+    margin: 0 10px; 
+    font-size: 14px; 
+}
+
+#character-traits, #social-traits, #level-traits{
+    display: flex;
+    list-style: none;
+}
+
+#character-traits li, #social-traits, #level-traits{
+    margin: 0.5em 0.5em;
+
+}
+
+.paw-prints{
+    max-width: 5%; 
+    height: 2%;
+}
