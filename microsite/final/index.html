@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <title>Microsite Initial Build</title>
+        <link href="css/styles.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+
+        <script>
+            $( document ).ready(function() {
+                $(".controls").click(function(){
+                    $("#drawer").toggleClass("open");
+                    console.log("Toggled drawer open.");
+                });
+            });
+        </script>
+    </head>
+
+    <body id="home-page-body">
+        <header>
+            <!-- Desktop Main Nav -->
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="history.html">history</a></li>
+                    <li><a href="personality.html">personality</a></li>
+                    <li><a href="physical-traits.html">physical traits</a></li>
+                    <li><a href="health-issues.html">health issues</a></li>
+                </ul>
+            </nav>
+
+
+        </header>
+
+        <main>
+           <section id="intro-imgs">
+                <img src="https://greatlakespup.com/wp-content/uploads/2020/04/CAVALIER-KING-CHARLES.jpeg">
+                <img src="https://cdn.wamiz.fr/cdn-cgi/image/format=auto,quality=80,width=400,height=400,fit=cover/animal/breed/pictures/61af4a7e4791f739526800.jpg">
+                <img src="https://img.dog-learn.com/dog-breeds/cavalier-king-charles-spaniel/cavalier-king-charles-spaniel-sz6.jpg">
+           </section>
+
+           <h1 id="home-page-title">Cavalier King Charles Spaniel</h1>
+
+           <section class="pages-nav">
+                <div class="pages-grid" id="history">
+                    <div class="img-pages-btn">
+                        <a href="history.html"><img src="https://www.akc.org/wp-content/uploads/2009/01/Cavalier-King-Charles-Spaniel-head-portrait-outdoors.jpg"></a>
+                    </div>
+                    <h3>History</h3>
+                    <p>Learn about the history of the Cavalier King Charles Spaniel and its divergence from the King Charles Spaniel</p>
+                    <p class="learn-more-button"><a href="history.html">Learn More</a></p>
+                </div>
+
+                <div class="pages-grid" id="personality">
+                    <div class="img-pages-btn">
+                        <a href="personality.html"><img src="https://a-z-animals.com/media/Cavalier-King-Charles-Spaniel-Canis-familiaris-puppy-jumping.jpg"></a>
+                    </div>
+                    <h3>Personality</h3>
+                    <p>The Cavalier King Charles Spaniel is gentle, affectionate, and playful. Find out more about how they get along with both dogs & people.</p>
+                    <p class="learn-more-button"><a href="personality.html">Learn More</a></p>
+                </div>
+
+                <div class="pages-grid" id="physical-traits">
+                    <div class="img-pages-btn">
+                        <a href="physical-traits.html"><img src="https://blog.healthypawspetinsurance.com/wp-content/uploads/2022/05/spaniel-feat.jpg"></a>
+                    </div>
+                    <h3>Physical Traits</h3>
+                    <p>Learn about the average height, weight, lifespan, and different colors of Cavalier King Charles Spaniels.</p>
+                    <p class="learn-more-button"><a href="physical-traits.html">Learn More</a></p>
+                </div>
+
+                <div class="pages-grid" id="health-issues">
+                    <div class="img-pages-btn">
+                        <a href="health-issues.html"><img src="https://www.akc.org/wp-content/uploads/2017/11/Cavalier-King-Charles-Spaniel-standing-in-the-grass.jpg"></a>
+                    </div>
+                    <h3>Health Issues</h3>
+                    <p>Cavalier King Charles Spaniels can be prone to a variety of health issues. Learn more about how to take care of them.</p>
+                    <p class="learn-more-button"><a href="health-issues.html">Learn More</a></p>
+                </div>
+           </section>
+        </main>
+
+        <footer>
+            <nav id="footer-nav">
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="history.html">history</a></li>
+                    <li><a href="personality.html">personality</a></li>
+                    <li><a href="physical-traits.html">physical traits</a></li>
+                    <li><a href="health-issues.html">health issues</a></li>
+                </ul>
+            </nav>
+            
+            <div id="footer-info">
+                <p>creative director: Rachel Tian</p>
+                <p>designer & developer: Yanny Liang</p>
+                <p>copyright 2022</p>
+            </div>
+        </footer>
+    </body>
+</html>
