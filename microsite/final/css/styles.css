@@ -144,6 +144,7 @@ nav#main-nav ul li a:visited {
     text-decoration: underline;
     font-family: 'Fredoka One', cursive;
     justify-content: center;
+    color:#447247; 
 }
 
 /* Home Page CSS */
